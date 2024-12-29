@@ -15,6 +15,20 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
 }
+header img {
+    max-height: 60px; /* Ajuste la hauteur */
+    margin-right: 10px; /* Espacement à droite */
+    vertical-align: middle; /* Aligne avec le texte */
+}
+header {
+    display: flex;
+    align-items: center; /* Centre le contenu verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    text-align: left;
+}
+header h1 {
+    margin-left: 10px; /* Ajuste l'espace entre le logo et le titre */
+}
 nav {
     display: flex;
     justify-content: center;
